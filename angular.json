@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularPractice"
+    }
+  },
+  "defaultProject": "AngularPractice",
+  "cli": {
+    "analytics": false
+  }
 }
