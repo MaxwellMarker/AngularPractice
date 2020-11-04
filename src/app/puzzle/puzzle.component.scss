@@ -21,11 +21,31 @@
 }
 .box {
   width: 100%;
-  height: 100vh;
   border: black solid 2px;
 }
 .grid {
     margin: 0 auto;
     width: 700px;
     display: flex;
+}
+.one {
+    background-color: rgb(0, 187, 0);
+}
+.two {
+    background-color: rgb(0, 255, 149);
+}
+.three {
+    background-color: rgb(0, 255, 234);
+}
+.four {
+    background-color: rgb(0, 168, 190);
+}
+.five {
+    background-color: rgb(0, 95, 219);
+}
+.six {
+    background-color: rgb(0, 31, 207);
+}
+.seven {
+    background-color: rgb(88, 0, 202);
 }
