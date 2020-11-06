@@ -11,5 +11,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  rick(){
+    alert('never gonna give you up')
+  }
 }
