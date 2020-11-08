@@ -8,6 +8,30 @@ import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag
 })
 export class PuzzleComponent implements OnInit {
 
+  one = [
+    "oneone",
+    "onetwo",
+    "onethree",
+    "onefour"
+  ]
+  two = [
+    "twoone",
+    "twotwo",
+    "twothree",
+    "twofour"
+  ]
+  three = [
+    "threeone",
+    "threetwo",
+    "threethree",
+    "threefour"
+  ]
+  four = [
+    "fourone",
+    "fourtwo",
+    "fourthree",
+    "fourfour"
+  ]
   constructor() { }
 
   ngOnInit(): void {
@@ -23,5 +47,5 @@ export class PuzzleComponent implements OnInit {
                         event.currentIndex);
     }
   }
-  
+
 }
