@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PuzzleComponent } from './puzzle/puzzle.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SoundComponent } from './sound/sound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavigationComponent,
-    PuzzleComponent
+    PuzzleComponent,
+    SoundComponent
   ],
   imports: [
     BrowserModule,
