@@ -33,14 +33,20 @@ export class PuzzleComponent implements OnInit {
         event.previousIndex,
         event.currentIndex
       );
-      setTimeout(() => {
-        transferArrayItem(
-          event.container.data,
-          event.previousContainer.data,
-          event.currentIndex + 1,
-          event.previousIndex,
-        );
-      }, 100);
+      transferArrayItem(
+        event.container.data,
+        event.previousContainer.data,
+        event.currentIndex + 1,
+        event.previousIndex
+      );
+    }
+    if (
+      this.one.join('') === 'onetwothreefour' &&
+      this.two.join('') === 'twothreefourfive' &&
+      this.three.join('') === 'threefourfivesix' &&
+      this.four.join('') === 'fourfivesixseven'
+    ) {
+      alert('you completed the puzzle');
     }
   }
 }
