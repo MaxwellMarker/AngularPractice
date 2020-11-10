@@ -1,14 +1,14 @@
 <div class="grid" cdkDropListGroup>
     <div class="box" cdkDropList [cdkDropListData]="one" (cdkDropListDropped)="drop($event)">
-        <div *ngFor="let item of one" class="puzzle {{item}}" cdkDrag></div>
+        <div *ngFor="let item of one" class="puzzle {{item}}" cdkDrag>{{item}}</div>
     </div>
     <div class="box" cdkDropList [cdkDropListData]="two" (cdkDropListDropped)="drop($event)">
-        <div *ngFor="let item of two" class="puzzle {{item}}" cdkDrag></div>
+        <div *ngFor="let item of two" class="puzzle {{item}}" cdkDrag>{{item}}</div>
     </div>
     <div class="box" cdkDropList [cdkDropListData]="three" (cdkDropListDropped)="drop($event)">
-        <div *ngFor="let item of three" class="puzzle {{item}}" cdkDrag></div>
+        <div *ngFor="let item of three" class="puzzle {{item}}" cdkDrag>{{item}}</div>
     </div>
     <div class="box" cdkDropList [cdkDropListData]="four" (cdkDropListDropped)="drop($event)">
-        <div *ngFor="let item of four" class="puzzle {{item}}" cdkDrag></div>
+        <div *ngFor="let item of four" class="puzzle {{item}}" cdkDrag>{{item}}</div>
     </div>
 </div>
