@@ -12,4 +12,7 @@ export class NgHeroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  yellowNote() {
+    
+  }
 }
