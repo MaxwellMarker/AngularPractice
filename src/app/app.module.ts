@@ -8,6 +8,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { PuzzleComponent } from './puzzle/puzzle.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SoundComponent } from './sound/sound.component';
+import { NgHeroComponent } from './ng-hero/ng-hero.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SoundComponent } from './sound/sound.component';
     HomeComponent,
     NavigationComponent,
     PuzzleComponent,
-    SoundComponent
+    SoundComponent,
+    NgHeroComponent
   ],
   imports: [
     BrowserModule,
