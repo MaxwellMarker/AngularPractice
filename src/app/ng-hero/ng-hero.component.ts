@@ -13,6 +13,10 @@ export class NgHeroComponent implements OnInit {
   }
 
   yellowNote() {
-    
+    const note = document.getElementById("yellowNote");
+    note.style.width = "10px";
+    note.style.height = "10px";
+    note.style.backgroundSize = "20px 20px";
+    note.style.bottom = "350px";
   }
 }

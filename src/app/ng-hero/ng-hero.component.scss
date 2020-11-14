@@ -13,6 +13,7 @@
         position: absolute;
         top: 0;
         background-image: linear-gradient(black 50%, transparent);
+        z-index: 2;
     }
     .highway {
         height: 0px;
@@ -26,11 +27,14 @@
         width: 60px;
         border-radius: 50%;
         background-image: radial-gradient(white 15%, black 15% 20%, yellow 20%, rgb(167, 167, 0));
-        background-position: 0 -10px;
+        background-position: -5px -10px;
         background-repeat: no-repeat;
-        background-color: rgb(194, 194, 0);
+        background-size: 70px 70px;
+        // background-color: rgb(194, 194, 0);
         border: solid 3px black;
         transform: rotateX(55deg);
         position: absolute;
+        bottom: 0;
+        transition: 3.5s linear;
     }
 }
