@@ -6,12 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  name: string;
   constructor() { }
 
   ngOnInit(): void {
   }
   rick(){
-    alert('never gonna give you up')
+    const answer = prompt("What is yo name");
+    this.name = answer;
   }
 }
